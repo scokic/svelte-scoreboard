@@ -7,8 +7,8 @@
 	 let players = [
 
 		 {name: "Nikola Tesla", points: 241},
-		 {name: "Elon Musk", points: 98},
-		 {name: "Thomas Edison", points: 32},
+		 {name: "Elon Musk", points: 197},
+		 {name: "Thomas Edison", points: 176},
 	 ]
 	 
 	 const addNewPlayer = e => {
