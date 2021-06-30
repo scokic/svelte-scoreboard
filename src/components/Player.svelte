@@ -9,7 +9,7 @@
 </script>
 
 <div class="card">
-    <h1>{name}!</h1>
+    <h1>{name}</h1>
     <h3>Points: {points}</h3>
     <button class="btn toggle-btn" on:click={toggleControls}>{#if showControls}-{:else}+{/if}</button>
 
@@ -26,6 +26,7 @@
 	border: 1px solid lightgrey;
 	padding: 1rem 2rem;
 	border-radius: .25rem;
+	position: relative;
 }
 
 
@@ -40,6 +41,12 @@
 .btn-dark {
 	background-color: black;
 	color:white;
+}
+
+.toggle-btn {
+	position: absolute;
+	top: 1rem;
+	right: 1rem;
 }
 
 </style>

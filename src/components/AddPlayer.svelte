@@ -33,4 +33,11 @@ import { createEventDispatcher } from "svelte"
         gap: .5rem;
     }
 
+    @media screen and (max-width: 800px) {
+        .new-player-form {
+            display: flex;
+            flex-direction: column;
+        }
+    }
+
 </style>

@@ -7,7 +7,7 @@
 	 let players = [
 
 		 {name: "Nikola Tesla", points: 241},
-		 {name: "Elon Mush", points: 98},
+		 {name: "Elon Musk", points: 98},
 		 {name: "Thomas Edison", points: 32},
 	 ]
 	 
@@ -46,5 +46,12 @@
 		gap: .5rem;
 		padding-top: 1rem;
 	}
+
+	@media screen and (max-width: 800px) {
+        .list-container{
+			padding: 1rem;
+        }
+    }
+
 
 </style>
