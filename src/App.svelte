@@ -6,9 +6,9 @@
 
 	 let players = [
 
-		 {name: "Pera Perić", points: 20},
-		 {name: "Žika Žigić", points: 32},
-		 {name: "Ivan Marković", points: 51},
+		 {name: "Nikola Tesla", points: 241},
+		 {name: "Elon Mush", points: 98},
+		 {name: "Thomas Edison", points: 32},
 	 ]
 	 
 	 const addNewPlayer = e => {
