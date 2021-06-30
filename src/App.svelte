@@ -1,6 +1,6 @@
 <script>
 	import Navbar from "./components/Navbar.svelte";
-	import Player from "./components/player.svelte";
+	import Player from "./components/Player.svelte";
 	import AddPlayer from "./components/AddPlayer.svelte"
 	
 
