@@ -1,4 +1,4 @@
-# Svelte Scoreboard
+# 💯 Svelte Scoreboard
 
 This is a simple project for learning basics of Svelte.
 Check out the project [here](https://svelte-scoreboard-project.netlify.app/).
